@@ -40,8 +40,8 @@ figcaption {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #DAC19C
-    color: #ffffff;
+    background-color: #fff
+    color: #DAC19C;
     padding: 0.5rem;
     text-align: center;
     opacity: 0;
@@ -53,7 +53,7 @@ figure:hover figcaption {
 }
 
 footer {
-    background-color: #333;
+    background-color: #DAC19C;
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -63,4 +63,9 @@ img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.blanc {
+    background-color: #DAC19C;
+    color: #fff;
 }
