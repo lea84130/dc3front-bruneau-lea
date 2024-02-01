@@ -69,3 +69,14 @@ img {
     background-color: #DAC19C;
     color: #fff;
 }
+
+@media only screen and (max-width: 992px) {
+  img {
+    width: 48%; 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%; 
+  }
