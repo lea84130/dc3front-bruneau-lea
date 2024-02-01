@@ -35,4 +35,18 @@ figure:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DAC19C
+    color: #ffffff;
+    padding: 0.5rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
 
