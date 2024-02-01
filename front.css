@@ -48,5 +48,19 @@ figcaption {
     transition: opacity 0.3s ease-in-out;
 }
 
+figure:hover figcaption {
+    opacity: 1;
+}
 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
 
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
