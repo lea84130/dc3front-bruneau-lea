@@ -6,9 +6,33 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #DAC19C;
+    color: #FFF;
     padding: 1rem;
     text-align: center;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+figure {
+    flex: 0 0 calc(25% - 20px);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+figure:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 
